@@ -88,11 +88,23 @@ button {
     border-radius: 10px;
     border: 0;
     box-shadow: 3px 3px 5px black;
+    background-color: aliceblue;
 }
 
+button:hover {
+    cursor: pointer;
+}
 
+button:active {
+    background-color: rgb(218, 231, 243);
+}
 
 p {
     font-size: 11px;
     padding-top: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(39, 39, 165);
 }
